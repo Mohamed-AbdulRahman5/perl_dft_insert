@@ -1,4 +1,4 @@
-#Perl Script README
+#Perl_Script_README
 #Overview
 This Perl script takes a Verilog design file as input and modifies it by adding DFT ports. The modified Verilog design is then saved to a new file.
 
