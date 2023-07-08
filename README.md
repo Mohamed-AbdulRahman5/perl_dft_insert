@@ -1,16 +1,16 @@
-#Perl_Script_README
-#Overview
+## Perl_Script_README
+# Overview
 This Perl script takes a Verilog design file as input and modifies it by adding DFT ports. The modified Verilog design is then saved to a new file.
 
-#Inputs
+# Inputs
 The script takes two inputs:
 
 The name of the input Verilog design file.
 The name of the output file to save the modified Verilog design to.
-#Output
+# Output
 The script modifies the input Verilog design file by adding DFT ports before the first occurrence of the pattern 'input' in the file. The modified design is then saved to the output file specified by the user.
 
-#How it works
+# How it works
 The script defines a subroutine called insert_dft that takes two arguments: $design (the input Verilog design file) and $DFT_design (the output file to write the modified design to). The insert_dft subroutine does the following:
 
 Opens the input and output files.
@@ -20,7 +20,7 @@ Writes the modified scalar variable to the output file.
 Closes the input and output files.
 The script then calls the insert_dft subroutine with the names of the input and output files specified on the command line.
 
-#Usage
+# Usage
 To use the script, run the following command on the terminal:
 
 Copy
