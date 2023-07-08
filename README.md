@@ -25,6 +25,6 @@ To use the script, run the following command on the terminal:
 
 Copy.
 
- perl script.pl input_file.v output_file.v
+ perl DFT_insertion_script.pl input_file.v output_file.v
 
-Replace script.pl with the name of the Perl script, input_file.v with the name of the Verilog design file you want to modify, and output_file.v with the name you want to give to the modified file.
+Replace input_file.v with the name of the Verilog design file you want to modify, and output_file.v with the name you want to give to the modified file.
